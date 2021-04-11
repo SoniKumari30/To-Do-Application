@@ -25,4 +25,4 @@ class Item extends React.Component{
  
 }
 
-export default Item//
+export default Item
