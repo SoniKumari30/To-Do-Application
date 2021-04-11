@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import TodoItem from './Item'
 
 class Todos extends React.Component{
@@ -15,4 +15,4 @@ class Todos extends React.Component{
   }
  
 }
-export default Todos;
+export default Todos
