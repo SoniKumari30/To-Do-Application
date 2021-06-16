@@ -7,7 +7,7 @@ class Item extends React.Component{
         padding:'10px',
         borderBottom:'1px #ccc dotted',
       textDecoration: this.props.todo.completed? 'line-through':'none'
-  }//
+  }
 }
 
 
