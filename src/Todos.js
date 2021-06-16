@@ -11,7 +11,7 @@ class Todos extends React.Component{
     			delTodo={this.props.delTodo}
     			/>)
     	}) 
-    	
+    	//
   }
  
 }

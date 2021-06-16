@@ -12,7 +12,7 @@ class App extends React.Component{
       }
     
       markComplete =(id)=>{
-        this.setState({todos:this.state.todos.map(todo =>{
+        this.setState({todos:this.state.to//dos.map(todo =>{
           if(todo.id===id){
             todo.completed=!todo.completed
           }
