@@ -9,7 +9,7 @@ class Item extends React.Component{
       textDecoration: this.props.todo.completed? 'line-through':'none'
   }
 }
-
+//
 
   render(){
     const {id, title}=this.props.todo;
