@@ -9,7 +9,7 @@ class Todos extends React.Component{
     		return(<TodoItem key={todo.id} todo={todo} 
     			markComplete={this.props.markComplete}
     			delTodo={this.props.delTodo}
-    			/>)
+    			/>)//
     	}) 
     	
   }

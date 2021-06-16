@@ -7,7 +7,7 @@ class Add extends React.Component{
 	handleChange=(e)=>{
 		this.setState({[e.target.name]:e.target.value})
 	}
-	handleSubmit=(e)=>{
+	handleSubm//it=(e)=>{
 		e.preventDefault()
 		this.props.addTodo(this.state.title)
 		this.setState({title:''})
