@@ -11,7 +11,7 @@ class Add extends React.Component{
 		e.preventDefault()
 		this.props.addTodo(this.state.title)
 		this.setState({title:''})
-	}//
+	}
 
 	render(){
 
