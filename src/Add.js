@@ -12,7 +12,7 @@ class Add extends React.Component{
 		this.props.addTodo(this.state.title)
 		this.setState({title:''})
 	}
-//
+
 	render(){
 
 		return(
