@@ -11,7 +11,7 @@ class Item extends React.Component{
 }
 
 
-  render(){
+  render(){//
     const {id, title}=this.props.todo;
    return (
     <div style={this.getStyle()}>
